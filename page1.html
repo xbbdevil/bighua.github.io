@@ -37,7 +37,7 @@ body{overflow: hidden;font-family:"Avenir","Helvetica Neue",Helvetica,Arial,sans
 
 <script type="text/javascript">
 
-var S={init:function(){var action=window.location.href,i=action.indexOf('?a=');S.Drawing.init('.canvas');document.body.classList.add('body--ready');if(i!==-1){S.UI.simulate(decodeURI(action).substring(i+ 3));}else{S.UI.simulate('那些|短暂的相遇|短暂的美好|会不会在心里|埋下长久的种子|我越来越相信|用爱|来连接着的人|一定会重逢在|某个时间|某个地点|某个现在|无法想象的|形式|在彼此的脑海|广袤的银河|星海里|我们|无数次|电波冲撞|无数次|喜悦相逢|原❤华|#show',3000);}
+var S={init:function(){var action=window.location.href,i=action.indexOf('?a=');S.Drawing.init('.canvas');document.body.classList.add('body--ready');if(i!==-1){S.UI.simulate(decodeURI(action).substring(i+ 3));}else{S.UI.simulate('那些|短暂的相遇|短暂的美好|会不会在心里|埋下长久的种子|我相信|用爱|连接着的人|定会重逢在|某个时间|某个地点|某个现在|无法想象的|形式|在彼此的脑海|广袤的银河|星海里|我们|无数次|电波冲撞|无数次|喜悦相逢|原❤华|#show',3000);}
 
 S.Drawing.loop(function(){S.Shape.render();});}};S.Drawing=(function(){var canvas,context,renderFn
 
